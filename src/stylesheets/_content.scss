@@ -1,0 +1,9 @@
+.content {
+    flex-direction: column;
+    margin-top: 50px;
+    grid-area: c;
+  
+    .cont {
+      justify-content: space-between;
+    }
+  }

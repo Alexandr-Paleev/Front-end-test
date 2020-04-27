@@ -1,0 +1,48 @@
+.listMessage {
+    grid-area: z;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 20px;
+  
+    li {
+     list-style-type: none;
+    }
+    
+    ul {
+     margin-left: 0;
+     padding-left: 0;
+    }
+
+    span {
+      color: Grey;
+    }
+  
+    .oldMessage {
+      width: 90%;
+      height: 150px;
+      border: 2px solid blue;
+      background-color: lightblue;
+      padding: 10px 10px;
+      font-size: 18px;
+    }
+  
+    .newMessage {
+      width: 90%;
+      height: 150px;
+      border: 2px solid black;
+      font-size: 18px;
+      padding: 10px 10px;
+    }
+  
+    button {
+      width: 300px;
+      height: 50px;
+      margin-top: 40px;
+      border: none;
+      background-color: Yellow;
+      border-radius: 30px;
+      margin-left: calc(50% - 150px);
+      outline: none;
+      cursor: pointer;
+    }
+  }
